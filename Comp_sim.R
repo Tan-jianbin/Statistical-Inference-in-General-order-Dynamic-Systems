@@ -1,5 +1,5 @@
 # Setting
-address <- "D:/Documents/GitHub/Dynamic-Learning/Paper/Code&Data/"
+address <- "~"
 setwd(address) # Set your address
 
 rat_list <-  c(0.03, 0.05, 0.07) # Contamination level
