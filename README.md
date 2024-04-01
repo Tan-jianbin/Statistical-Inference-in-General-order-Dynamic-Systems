@@ -30,4 +30,4 @@ We employed Green's matching for parameter estimations in dynamic systems compar
 
 ----
 ## 3. Supplementary materials
-The proof of this article is included in the "SM.pdf".
+The proof of this article is included in "SM.pdf".
