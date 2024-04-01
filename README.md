@@ -3,7 +3,7 @@
 This file contains the data and code used in the paper "Green's matching: an efficient approach to parameter estimation in complex dynamic systems" by Jianbin Tan, Guoyu Zhang, Xueqin Wang, Hui Huang, and Fang Yao.
 
 # Abstract
-This file contains the proof, codes and a real dataset used in this article. 
+This file contains proof, codes and a real dataset used in this article. 
 
 ## 1. Data
 ### 1) Abstract
