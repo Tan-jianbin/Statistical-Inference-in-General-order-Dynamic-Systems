@@ -1,4 +1,4 @@
-# Green's Matching: An Efficient Approach to Parameter Estimation in Complex Dynamic Systems
+# Green's Matching
 
 This README accompanies the paper "Green's Matching: An Efficient Approach to Parameter Estimation in Complex Dynamic Systems" by Jianbin Tan, Guoyu Zhang, Xueqin Wang, Hui Huang, and Fang Yao. The paper is accessible at [Journal of the Royal Statistical Society Series B: Statistical Methodology](https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkae031/7644665?redirectedFrom=fulltext&login=false).
 
