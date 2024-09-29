@@ -1,33 +1,33 @@
-# Green's matching: an efficient approach to parameter estimation in complex dynamic systems
+# Green's Matching: An Efficient Approach to Parameter Estimation in Complex Dynamic Systems
 
-This file contains the data and code used in the paper "Green's matching: an efficient approach to parameter estimation in complex dynamic systems" by Jianbin Tan, Guoyu Zhang, Xueqin Wang, Hui Huang, and Fang Yao.
+This README accompanies the paper "Green's Matching: An Efficient Approach to Parameter Estimation in Complex Dynamic Systems" by Jianbin Tan, Guoyu Zhang, Xueqin Wang, Hui Huang, and Fang Yao. The paper is accessible at [Journal of the Royal Statistical Society Series B: Statistical Methodology](https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkae031/7644665?redirectedFrom=fulltext&login=false).
 
-# Abstract
-This file contains proof, codes and a real dataset used in this article. 
+## Abstract
+This repository contains the proofs, code, and a real dataset utilized in our study.
 
 ## 1. Data
-### 1) Abstract
+### Abstract
+The dataset employed in this study is sourced from the public domain and can be accessed at [FDA Software](https://www.psych.mcgill.ca/misc/fda/software.html). It comprises trajectories of Chinese script production, as detailed in sections 1.1.6 and 9.9 of "Dynamic Data Analysis" by Ramsay, James, and Giles Hooker (Springer, 2017).
 
-The data underlying this article are derived from a source in the public domain, available at https://www.psych.mcgill.ca/misc/fda/software.html. The dataset contains trajectories in producing a Chinese script. Additional information on the Chinese handwriting data can be found in Sections 1.1.6 and 9.9 of "Ramsay, James, and Giles Hooker. Dynamic data analysis. Springer, 2017."
+### Availability
+All necessary data to reproduce the results of this study are available.
 
-### 2) Availability
-The data to reproduce our results are available.
+### Data Dictionary
+The real dataset, contained in the "dat.rda" file within the "Data" directory, includes two dynamic curves that represent the movement involved in producing Chinese script in both horizontal and vertical directions on a writing surface.
 
-### 3) Data dictionary
-The real dataset is included in the "dat.rda" file within the "Data" directory. It consists of two dynamic curves that capture the movement of producing a Chinese script in both horizontal and vertical directions on a writing surface.
-
-----
 ## 2. Code
-### 1) Abstract
-We employed Green's matching for parameter estimations in dynamic systems compared with other methods, including the gradient matching of different orders, the generalized smoothing approach, and the manifold-constrained Gaussian processes.
+### Abstract
+Our study employs Green's matching technique for parameter estimation in dynamic systems, compared to other methods such as:
+- Gradient matching of various orders
+- Generalized smoothing approaches
+- Manifold-constrained Gaussian processes
 
-### 2) Reproducibility
-- The results in Table 1 (in the main text) were produced by running "Comp_sim.R".
-- The illustration of estimation biases and variances of the model parameters in Figure 2 was conducted by running "Plot_sim.R".
-- The curves' reconstructions and confidence intervals calculations in Figure 3 were conducted by running "Curve_inf.R" and "Conf_inf.R", respectively, in which we changed the parameter "rat" into other values to obtain the results in Figures 2-5 and Table 1 (in Supplementary Materials).
-- The equation discovery in Section 5 was implemented by "Running.R" in the "Equation_discovery" directory.
-- The additional simulation studies in Section 4.2 and the data illustration in Supplementary Materials were obtained by running "Comp_sim_hand.R" and "Data_illustration.R", respectively.
+### Reproducibility
+- "Comp_sim.R" was used to generate the results presented in Table 1 of the main text.
+- "Plot_sim.R" was executed to illustrate estimation biases and variances of the model parameters shown in Figure 2.
+- Curve reconstructions and confidence interval calculations for Figure 3 were conducted using "Curve_inf.R" and "Conf_inf.R". Adjustments to the "rat" parameter were made to produce results shown in Figures 2-5 and Table 1 of the Supplementary Materials.
+- The equation discovery process described in Section 5 was implemented in "Running.R" within the "Equation_discovery" directory.
+- Additional simulation studies mentioned in Section 4.2 and data illustrations in the Supplementary Materials were carried out using "Comp_sim_hand.R" and "Data_illustration.R", respectively.
 
-----
-## 3. Supplementary materials
-The proof of this article is included in "SM.pdf".
+## 3. Supplementary Materials
+The proofs supporting the methodologies used in this study are detailed in "SM.pdf".
