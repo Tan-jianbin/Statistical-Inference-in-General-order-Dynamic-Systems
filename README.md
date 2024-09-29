@@ -18,9 +18,9 @@ The real dataset, contained in the "dat.rda" file within the "Data" directory, i
 ## 2. Code
 ### Abstract
 Our study employs Green's matching technique for parameter estimation in dynamic systems, compared to other methods such as:
-- Gradient matching of various orders
-- Generalized smoothing approaches
-- Manifold-constrained Gaussian processes
+- [Gradient matching and Integral Matching](https://link.springer.com/content/pdf/10.1007/978-1-4939-7190-9.pdf)
+- [Generalized smoothing approaches](https://academic.oup.com/jrsssb/article/69/5/741/7109525)
+- [Manifold-constrained Gaussian processes](https://www.pnas.org/doi/abs/10.1073/pnas.2020397118)
 
 ### Reproducibility
 - "Comp_sim.R" was used to generate the results presented in Table 1 of the main text.
