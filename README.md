@@ -31,3 +31,16 @@ Our study employs Green's matching technique for parameter estimation in dynamic
 
 ## 3. Supplementary Materials
 The proofs supporting the methodologies used in this study are detailed in "SM.pdf".
+
+## Citation
+If you use this code or methodology in your work, please cite:
+
+```bibtex
+@article{tan2024green,
+  title={Green’s matching: an efficient approach to parameter estimation in complex dynamic systems},
+  author={Tan, Jianbin and Zhang, Guoyu and Wang, Xueqin and Huang, Hui and Yao, Fang},
+  journal={Journal of the Royal Statistical Society Series B: Statistical Methodology},
+  pages={qkae031},
+  year={2024},
+  publisher={Oxford University Press UK}
+}
