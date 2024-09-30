@@ -2,6 +2,19 @@
 
 This README accompanies the paper "Green's Matching: An Efficient Approach to Parameter Estimation in Complex Dynamic Systems" by Jianbin Tan, Guoyu Zhang, Xueqin Wang, Hui Huang, and Fang Yao. The paper is accessible at [Journal of the Royal Statistical Society Series B: Statistical Methodology](https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkae031/7644665?redirectedFrom=fulltext&login=false).
 
+## Citation
+If you find our code or methodology useful, you may cite us as:
+
+    @article{tan2024green,
+      title={Green’s matching: an efficient approach to parameter estimation in complex dynamic systems},
+      author={Tan, Jianbin and Zhang, Guoyu and Wang, Xueqin and Huang, Hui and Yao, Fang},
+      journal={Journal of the Royal Statistical Society Series B: Statistical Methodology},
+      pages={qkae031},
+      year={2024},
+      publisher={Oxford University Press UK}
+    }
+
+---
 ## Abstract
 This repository contains the proofs, code, and a real dataset utilized in our study.
 
@@ -32,15 +45,3 @@ Our study employs Green's matching technique for parameter estimation in dynamic
 ## 3. Supplementary Materials
 The proofs supporting the methodologies used in this study are detailed in "SM.pdf".
 
-## Citation
-If you use this code or methodology in your work, please cite:
-
-```bibtex
-@article{tan2024green,
-  title={Green’s matching: an efficient approach to parameter estimation in complex dynamic systems},
-  author={Tan, Jianbin and Zhang, Guoyu and Wang, Xueqin and Huang, Hui and Yao, Fang},
-  journal={Journal of the Royal Statistical Society Series B: Statistical Methodology},
-  pages={qkae031},
-  year={2024},
-  publisher={Oxford University Press UK}
-}
